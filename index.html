@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <header></header> 
-test
-    <h1> Histoire de la régie </h1> 
-<script> fetch("./menu.html")
-    .then(response => {
-      return response.text()
-    })
-    .then(data => {
-      document.querySelector("header").innerHTML = data;
-    });</script>   
+  <header></header>
+
+  <h1> Histoire de la régie </h1>
+  <script> fetch("./menu.html")
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        document.querySelector("header").innerHTML = data;
+      });</script>
 </body>
+
 </html>
