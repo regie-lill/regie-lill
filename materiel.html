@@ -9,6 +9,18 @@
 <body>
   <div class="materiel1">
     <header></header>
+    <p> Acide chlorhydrique 23% (Produit Acide) </p>
+    <img src="images/produits/produit_acide1.png" alt="Produit Acide"> 
+    <img src="images/produits/produit_acide2.png" alt="Produit Acide"> 
+
+    <p> BUCALEX® G 460 (Produit Décapant) </p>
+    <img src="images/produits/produitdecapant1.png" alt="Produit Decapant"> 
+
+    <p> Désinfectant </p>
+    <img src="images/produits/desinfectant.png" alt="Produit Désinfectant">
+
+    <p> Dégraissant </p>
+    <img src="images/produits/degraissant.png" alt="Produit Degraissant">
     <script> fetch("./menu.html")
         .then(response => {
           return response.text()
@@ -16,6 +28,7 @@
         .then(data => {
           document.querySelector("header").innerHTML = data;
         });</script>  
-        </div>
+        
 </body>
+</div>
 </html>
