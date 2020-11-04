@@ -1,0 +1,11 @@
+{
+	"directrice": "TEst",
+	"coordinatricesoc": "Nom Prénom ",
+	"secretaire": "Nom Prénom ",
+	"coordinatricetech": "Nom Prénom ",
+	"chefequipe": [
+		"Nom Prénom ",
+		"Nom Prénom",
+		"Nom Prénom"
+	]
+}
