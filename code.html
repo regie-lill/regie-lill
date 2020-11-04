@@ -7,7 +7,11 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+  <div class="code"1>
     <header></header>
+    <div class="text">
+    <p> Encadrants </p>
+
     <script> fetch("./menu.html")
         .then(response => {
           return response.text()
@@ -15,5 +19,6 @@
         .then(data => {
           document.querySelector("header").innerHTML = data;
         });</script>  
+        </div>
 </body>
 </html>
