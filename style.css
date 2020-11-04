@@ -59,27 +59,42 @@ a:visited.informations {color: white;}
     justify-content: space-between;
 } 
 
-h1 {
+h1 { 
     margin-left: auto;
     margin-right: auto;
 }
 
-.main { 
+.main {  /* fond des pages */ 
     background: #F4C300;
 }
 
-.urgences1 {
+.urgences1 { /* fond des pages */ 
     background: #B63131
 }
 
-.informations1 {
+.informations1 { /* fond des pages */ 
     background: #3D6AA2 ;
 }
 
-.materiel1 {
+.materiel1 { /* fond des pages */ 
     background: #008037;
 }
 
-.code { 
-   background: #03989E ;
+.code {  /* fond des pages */ 
+   background: #03989E ; 
+}
+
+.equipenettoyage { /* style des images */ 
+    text-align: center;
+    font-weight: bolder;
+}
+
+.equipeencadrants { /* style des images */
+    text-align: center;
+    font-weight: bolder;
+}
+
+.equipepupacontenairs { /* style des images */
+    text-align: center; 
+    font-weight: bolder;
 }
