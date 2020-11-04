@@ -53,8 +53,16 @@ a:visited.informations {color: white;}
     margin-right: auto; 
     padding-top: 150px; }
 
+.container { 
+    display: flex;
+    justify-content: space-between;
+} 
 
-    .container { 
-        display: flex;
-        justify-content: space-between;
-    }
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main { 
+    background: #F4C300;
+}
