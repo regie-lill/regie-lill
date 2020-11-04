@@ -41,19 +41,19 @@
   color: black;
 }
 
-a:link {
+a:link { /* états des liens */
   color: black;
 }
 
-a:visited {
+a:visited { /* états des liens */
   color: black;
 }
 
-a:link.informations {
+a:link.informations { /* états des liens */
   color: white;
 }
 
-a:visited.informations {
+a:visited.informations { /* états des liens */
   color: white;
 }
 
@@ -125,8 +125,4 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.informationsaccueil {
-  margin: 5% 0;
-  width: 66%;
-  font-size: 20px;
-}
+
