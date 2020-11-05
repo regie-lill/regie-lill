@@ -205,3 +205,33 @@ IMG.displayed {
   margin-left: auto;
   margin-right: auto;
 }
+.regigi {
+  background: #008037;
+  font-size: 40px;
+  color: #f4c300;
+  font-weight: bold;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ph {
+  background: #f4c300;
+  font-size: 50px;
+  color: #008037;
+  font-weight: bold;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-list {
+  display: flex;
+}
+.contact-item {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 1px 1px 6px #666;
+}
