@@ -14,12 +14,13 @@
 <body>
   <header></header>
 
-  <h1> Histoire de la régie </h1>
-  <p class="histoire"> Issue de la volonté d’un groupe d’habitants, 
-    de la Ville de Mulhouse et des acteurs sociaux,
-     l’association Régie de l’Ill 
-    a vu le jour le 18 juillet 1991 et a 
-    créé l'atelier de repassage Repass'Ill en 1996.</p>
+
+  <div mv-app="storageTest" mv-storage="https://github.com/regie-lill">
+    <h2 class="regigi">Binvenue a la regie de l'ill</h2>
+  
+    <div mv-multiple>
+      <span  property="Nom"> Nom </span>
+    </div>
   
   <script> fetch("./menu.html")
       .then(response => {
